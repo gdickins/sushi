@@ -1,4 +1,28 @@
 html {
   color: #47A3DA; }
+  html body {
+    text-align: center;
+    margin: 0; }
+    html body header div {
+      font-size: 3rem; }
+    html body header h1 {
+      font-size: 6rem; }
+    html body header nav {
+      width: 50%;
+      margin: 0 auto; }
+      html body header nav ul {
+        list-style: none; }
+      html body header nav li {
+        float: left;
+        width: 25%; }
+    html body main header {
+      clear: both; }
+      html body main header div {
+        width: 20%;
+        float: left;
+        box-sizing: border-box;
+        border-bottom: 1px solid #47A3DA;
+        border-top: 1px solid #BECBD2;
+        border-right: 1px solid #BECBD2; }
 
 /*# sourceMappingURL=sushi.css.map */

@@ -1,4 +1,40 @@
 @import 'colorvar';
 html {
   color: $lightblue;
+  body {
+    text-align: center;
+    margin: 0;
+    header {
+      div {
+        font-size: 3rem;
+      }
+      h1 {
+        font-size: 6rem;
+      }
+      nav {
+        width: 50%;
+        margin: 0 auto;
+        ul {
+          list-style: none;
+        }
+        li {
+          float: left;
+          width: 25%;
+        }
+      }
+    }
+    main {
+      header {
+        clear: both;
+        div {
+          width: 20%;
+          float: left;
+          box-sizing: border-box;
+          border-bottom: 1px solid $lightblue;
+          border-top: 1px solid $grey;
+          border-right: 1px solid $grey;
+        }
+      }
+    }
+  }
 }

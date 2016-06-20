@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACH,KAAK,ECFK,OAAO",
+"sources": ["sushi.scss","colorvar.scss"],
+"names": [],
+"file": "sushi.css"
+}

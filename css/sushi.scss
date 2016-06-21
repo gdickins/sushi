@@ -38,13 +38,13 @@ html {
           padding-top: 15px;
           border-right: 1px solid $grey;
           color: $grey;
-        }
-        div:hover{
-          color: $lightblue;
-          border-bottom: none;
-          border-right: 1px solid $lightblue;
-          border-left: 1px solid $lightblue;
-          border-top: 2px solid $lightblue;
+          &:hover {
+            color: $lightblue;
+            border-bottom: none;
+            border-right: 1px solid $lightblue;
+            border-left: 1px solid $lightblue;
+            border-top: 2px solid $lightblue;
+          }
         }
       }
       div {

@@ -1,6 +1,7 @@
 @import 'colorvar';
 html {
   color: $lightblue;
+  font-family: helvetica;
   body {
     text-align: center;
     margin: 0;
@@ -20,6 +21,7 @@ html {
         li {
           float: left;
           width: 25%;
+          padding-bottom: 15%;
         }
       }
     }
@@ -31,9 +33,36 @@ html {
           float: left;
           box-sizing: border-box;
           border-bottom: 1px solid $lightblue;
+          padding-bottom: 15px;
           border-top: 1px solid $grey;
+          padding-top: 15px;
           border-right: 1px solid $grey;
+          color: $grey;
         }
+        div:hover{
+          color: $lightblue;
+          border-bottom: none;
+          border-right: 1px solid $lightblue;
+          border-left: 1px solid $lightblue;
+          border-top: 2px solid $lightblue;
+        }
+      }
+      div {
+        padding-top: 15%;
+        img {
+
+        }
+        h3 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+    }
+    footer {
+      span {
+        color: $grey;
       }
     }
   }
